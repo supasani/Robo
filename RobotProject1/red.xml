@@ -2,6 +2,7 @@
 <projectConfiguration>
     <configVersion>1</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="/usr/local/lib/python2.7/site-packages"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>
