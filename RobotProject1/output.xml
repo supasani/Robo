@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190820 21:26:56.487" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/supasani/Documents/workspace/RobotProject1" id="s1" name="RobotProject1">
+<suite source="/Users/supasani/Documents/workspace/RobotProject1/Test" id="s1-s1" name="Test">
+<suite source="/Users/supasani/Documents/workspace/RobotProject1/Test/Sample1.robot" id="s1-s1-s1" name="Sample1">
+<test id="s1-s1-s1-t1" name="MyFirstTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World!!!</arg>
+</arguments>
+<msg timestamp="20190820 21:26:56.531" level="INFO">Hello World!!!</msg>
+<status status="PASS" endtime="20190820 21:26:56.531" starttime="20190820 21:26:56.530"></status>
+</kw>
+<status status="PASS" endtime="20190820 21:26:56.531" critical="yes" starttime="20190820 21:26:56.530"></status>
+</test>
+<test id="s1-s1-s1-t2" name="MySecondTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hi!!!</arg>
+</arguments>
+<msg timestamp="20190820 21:26:56.532" level="INFO">Hi!!!</msg>
+<status status="PASS" endtime="20190820 21:26:56.532" starttime="20190820 21:26:56.532"></status>
+</kw>
+<status status="PASS" endtime="20190820 21:26:56.533" critical="yes" starttime="20190820 21:26:56.532"></status>
+</test>
+<status status="PASS" endtime="20190820 21:26:56.533" starttime="20190820 21:26:56.528"></status>
+</suite>
+<status status="PASS" endtime="20190820 21:26:56.534" starttime="20190820 21:26:56.526"></status>
+</suite>
+<status status="PASS" endtime="20190820 21:26:56.535" starttime="20190820 21:26:56.502"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RobotProject1" pass="2">RobotProject1</stat>
+<stat fail="0" id="s1-s1" name="Test" pass="2">RobotProject1.Test</stat>
+<stat fail="0" id="s1-s1-s1" name="Sample1" pass="2">RobotProject1.Test.Sample1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
